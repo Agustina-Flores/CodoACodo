@@ -111,29 +111,31 @@
                             </div>
                             <h2 class="mx-auto" style="text-align:center; font-size: 10px; color:rgb(29, 29, 29)">VENTA</h2>
                             <h1 class="mx-auto" style="text-align:center; font-size: 15px"><b>VALOR DE TICKET $200</b></h1>
-        
-                               <div style="text-align:center;max-width: 520px; margin: auto"> 
-                                 <div style= "padding: 1rem;background-color: lighten($color-principal, 60%)">
-                               <form class="formulario" style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 1.25rem;"> 
-                                         
+                                   <form class="formulario">
                                   <p>
-                                    <input type="text" class="form-control"  style="width:10rem; height: 1rem;font-size: 10px;border: 1px solid lighten($color-principal, 20%);margin: 0 10px 0 10px;"  name="nombre" value="Nombre" required>
+                                    <label>Nombre</label>
+                                    <input type="text" name="nombre" required>
                                   </p>
-                                   <p>
-                                    <input type="text" class="form-control"  style="width:10rem; height: 1rem;font-size: 10px;border: 1px solid lighten($color-principal, 20%);margin-right:500%;"  name="apellido" value="Apellido" required>
-                                  </p>
-                                   <p>
-                                   <input type="text" class="form-control" style="width:24rem; height: 1rem;font-size: 10px;" id="idCorreo" name="idCorreo" value="Correo">
-                                   </p>     
                                   <p>
-                                    <label class="form-label" style="font-size:10px;margin-top: 3%;display: block;">Cantidad</label>  
+                                    <label>Empresa</label>
+                                    <input type="text" name="empresa">
                                   </p>
-                                 <p>
-                               <input type="text" style="width:9.5rem; height: 1rem;font-size: 10px;;margin-top: 3%;" id="idcantidad" name="idcantidad" required>
-                                </p>
-                             </form>
-                                   </div>
-                    </div>
+                                  <p>
+                                    <label>Correo</label>
+                                    <input type="email" name="email" required>
+                                  </p>
+                                  <p>
+                                    <label>Teléfono</label>
+                                    <input type="text" name="teléfono" required>
+                                  </p>
+                                  <p class="full">
+                                    <label>Mensaje</label>
+                                    <textarea name="mensaje" required></textarea>
+                                  </p>
+                                  <p class="full">
+                                    <button class="boton-enviar">Enviar</button>
+                                  </p>
+                                </form>
  
                             <p></p>
                             <p></p>
